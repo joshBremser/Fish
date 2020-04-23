@@ -14,7 +14,7 @@ namespace Fish
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new WelcomePage();
+            MainPage = new NavigationPage(new WelcomePage());
         }
 
         protected override void OnStart()

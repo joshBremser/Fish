@@ -10,17 +10,12 @@ using Xamarin.Forms.Xaml;
 namespace Fish.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class WelcomePage : ContentPage
+    public partial class GooglePage : ContentPage
     {
-        public WelcomePage()
+        public GooglePage()
         {
             InitializeComponent();
-            BackgroundImage = "welcome.jpg";
-        }
-
-        async void OnFacebookGoogleTap(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new GooglePage());
+            BackgroundImage = "google.png";
         }
     }
 }
