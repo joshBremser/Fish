@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Josh\\Documents\\Visual Studio 2019\\Fish\\Fish\\Fish\\Fish.Android\\Fish.Android.csproj": {}
+    "/Users/twilk31888 1/Desktop/School Work/COS368/Fish/Fish/Fish.Android/Fish.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Josh\\Documents\\Visual Studio 2019\\Fish\\Fish\\Fish\\Fish.Android\\Fish.Android.csproj": {
+    "/Users/twilk31888 1/Desktop/School Work/COS368/Fish/Fish/Fish.Android/Fish.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Josh\\Documents\\Visual Studio 2019\\Fish\\Fish\\Fish\\Fish.Android\\Fish.Android.csproj",
+        "projectUniqueName": "/Users/twilk31888 1/Desktop/School Work/COS368/Fish/Fish/Fish.Android/Fish.Android.csproj",
         "projectName": "Fish.Android",
-        "projectPath": "C:\\Users\\Josh\\Documents\\Visual Studio 2019\\Fish\\Fish\\Fish\\Fish.Android\\Fish.Android.csproj",
-        "packagesPath": "C:\\Users\\Josh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Josh\\Documents\\Visual Studio 2019\\Fish\\Fish\\Fish\\Fish.Android\\obj\\",
+        "projectPath": "/Users/twilk31888 1/Desktop/School Work/COS368/Fish/Fish/Fish.Android/Fish.Android.csproj",
+        "packagesPath": "/Users/twilk31888 1/.nuget/packages/",
+        "outputPath": "/Users/twilk31888 1/Desktop/School Work/COS368/Fish/Fish/Fish.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Josh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/twilk31888 1/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "monoandroid90"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\Josh\\Documents\\Visual Studio 2019\\Fish\\Fish\\Fish\\Fish\\Fish.csproj": {
-                "projectPath": "C:\\Users\\Josh\\Documents\\Visual Studio 2019\\Fish\\Fish\\Fish\\Fish\\Fish.csproj"
+              "/Users/twilk31888 1/Desktop/School Work/COS368/Fish/Fish/Fish/Fish.csproj": {
+                "projectPath": "/Users/twilk31888 1/Desktop/School Work/COS368/Fish/Fish/Fish/Fish.csproj"
               }
             }
           }
@@ -54,29 +48,22 @@
         }
       }
     },
-    "C:\\Users\\Josh\\Documents\\Visual Studio 2019\\Fish\\Fish\\Fish\\Fish\\Fish.csproj": {
+    "/Users/twilk31888 1/Desktop/School Work/COS368/Fish/Fish/Fish/Fish.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Josh\\Documents\\Visual Studio 2019\\Fish\\Fish\\Fish\\Fish\\Fish.csproj",
+        "projectUniqueName": "/Users/twilk31888 1/Desktop/School Work/COS368/Fish/Fish/Fish/Fish.csproj",
         "projectName": "Fish",
-        "projectPath": "C:\\Users\\Josh\\Documents\\Visual Studio 2019\\Fish\\Fish\\Fish\\Fish\\Fish.csproj",
-        "packagesPath": "C:\\Users\\Josh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Josh\\Documents\\Visual Studio 2019\\Fish\\Fish\\Fish\\Fish\\obj\\",
+        "projectPath": "/Users/twilk31888 1/Desktop/School Work/COS368/Fish/Fish/Fish/Fish.csproj",
+        "packagesPath": "/Users/twilk31888 1/.nuget/packages/",
+        "outputPath": "/Users/twilk31888 1/Desktop/School Work/COS368/Fish/Fish/Fish/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Josh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/twilk31888 1/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -118,7 +105,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -15,12 +15,22 @@ namespace Fish.Views
         public WelcomePage()
         {
             InitializeComponent();
-            BackgroundImage = "welcome.jpg";
+            BackgroundImageSource = "welcome.jpg";
         }
 
         async void OnFacebookGoogleTap(object sender, EventArgs e)
         {
             Navigation.PushAsync(new GooglePage());
+        }
+
+        async void Loginbutton_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new LoginPage());
+        }
+
+        async void Registerbutton_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new RegisterPage());
         }
     }
 }

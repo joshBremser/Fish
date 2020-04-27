@@ -1018,39 +1018,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Josh\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/twilk31888 1/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josh\\Documents\\Visual Studio 2019\\Fish\\Fish\\Fish\\Fish.iOS\\Fish.iOS.csproj",
+      "projectUniqueName": "/Users/twilk31888 1/Desktop/School Work/COS368/Fish/Fish/Fish.iOS/Fish.iOS.csproj",
       "projectName": "Fish.iOS",
-      "projectPath": "C:\\Users\\Josh\\Documents\\Visual Studio 2019\\Fish\\Fish\\Fish\\Fish.iOS\\Fish.iOS.csproj",
-      "packagesPath": "C:\\Users\\Josh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josh\\Documents\\Visual Studio 2019\\Fish\\Fish\\Fish\\Fish.iOS\\obj\\",
+      "projectPath": "/Users/twilk31888 1/Desktop/School Work/COS368/Fish/Fish/Fish.iOS/Fish.iOS.csproj",
+      "packagesPath": "/Users/twilk31888 1/.nuget/packages/",
+      "outputPath": "/Users/twilk31888 1/Desktop/School Work/COS368/Fish/Fish/Fish.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Josh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/twilk31888 1/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Josh\\Documents\\Visual Studio 2019\\Fish\\Fish\\Fish\\Fish\\Fish.csproj": {
-              "projectPath": "C:\\Users\\Josh\\Documents\\Visual Studio 2019\\Fish\\Fish\\Fish\\Fish\\Fish.csproj"
+            "/Users/twilk31888 1/Desktop/School Work/COS368/Fish/Fish/Fish/Fish.csproj": {
+              "projectPath": "/Users/twilk31888 1/Desktop/School Work/COS368/Fish/Fish/Fish/Fish.csproj"
             }
           }
         }
