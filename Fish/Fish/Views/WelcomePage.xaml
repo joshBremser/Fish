@@ -8,7 +8,8 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Fish"
-                FontSize="Large"
+                FontSize="60"
+                FontAttributes="Bold"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" TextColor="#000000" />
             <Image Source="welcomefish.png" HeightRequest="200"></Image>
@@ -18,8 +19,27 @@
                 </Image.GestureRecognizers>
             </Image>
 
-            <Button Text="Login"></Button>
-            <Button Text="Register"></Button>
+            <Button x:Name="Loginbutton"
+                    Text="Login"
+                    HorizontalOptions="Center"
+                    WidthRequest="285"
+                    CornerRadius="45"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    BackgroundColor="#C0DAF3"
+                    IsEnabled="True"
+                    Clicked="Loginbutton_Clicked"/>
+            <Button x:Name="Registerbutton"
+                    Text="Register"
+                    Margin="10"
+                    HorizontalOptions="CenterAndExpand"
+                    WidthRequest="285"
+                    CornerRadius="45"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    BackgroundColor="#C6F4CD"
+                    IsEnabled="True"
+                    Clicked="Registerbutton_Clicked"/>
 
         </StackLayout>
     </ContentPage.Content>

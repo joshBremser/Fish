@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Fish.Views.LoginPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Login"
+                FontSize="60"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" TextColor="#000000" />
+            <Image Source="loginfish.png" HeightRequest="200"></Image>
+            <Entry x:Name="email"
+                   Placeholder="Email Address"
+                   IsSpellCheckEnabled="False"
+                   ClearButtonVisibility="WhileEditing"
+                   Margin="0, 50, 0, 5"
+                   WidthRequest="285"       
+                   HorizontalOptions="Center"
+                   BackgroundColor="White"
+                   TextChanged="email_TextChanged"
+                   Completed="email_Completed"/>
+            <Entry x:Name="password"
+                   Placeholder="Password"
+                   IsSpellCheckEnabled="False"
+                   IsTextPredictionEnabled="False"
+                   IsPassword="True"
+                   ClearButtonVisibility="WhileEditing"
+                   MaxLength="20"
+                   Margin="0, 5, 0, 40"
+                   WidthRequest="285"
+                   HorizontalOptions="Center"
+                   BackgroundColor="White"
+                   TextChanged="password_TextChanged"
+                   Completed="password_Completed"/>
+            <Button x:Name="LoginPageButton"
+                    Text="Login"
+                    Margin="10"
+                    HorizontalOptions="Center"
+                    WidthRequest="285"
+                    CornerRadius="45"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    BackgroundColor="#C0DAF3"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

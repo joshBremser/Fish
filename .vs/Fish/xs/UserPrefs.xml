@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{5F0CC0B2-B95B-4B4B-ACE4-49D7AE4180A4}|Default">
+  <MonoDevelop.Ide.ItemProperties.Fish.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fish/Fish/Views/GooglePage.xaml.cs">
+    <Files>
+      <File FileName="Fish/Fish/Views/WelcomePage.xaml" Line="20" Column="21" />
+      <File FileName="Fish/Fish/Views/WelcomePage.xaml.cs" Line="33" Column="56" />
+      <File FileName="Fish/Fish/Views/LoginPage.xaml" Line="1" Column="1" />
+      <File FileName="Fish/Fish/Views/LoginPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Fish/Fish/Views/RegisterPage.xaml" Line="5" Column="1" />
+      <File FileName="Fish/Fish/Views/RegisterPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Fish/Fish/Views/GooglePage.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Fish" expanded="True">
+            <Node name="Fish" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="GooglePage.xaml" expanded="True">
+                  <Node name="GooglePage.xaml.cs" selected="True" />
+                </Node>
+                <Node name="LoginPage.xaml" expanded="True" />
+                <Node name="WelcomePage.xaml" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
