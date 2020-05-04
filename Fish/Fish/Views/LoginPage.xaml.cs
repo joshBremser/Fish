@@ -39,6 +39,10 @@ namespace Fish.Views
             string login_password = ((Entry)sender).Text;
         }
 
-        
+        async void LoginPageButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new MapPage());
+        }
+
     }
 }
