@@ -39,7 +39,8 @@
                     CornerRadius="45"
                     BorderColor="Black"
                     BorderWidth="1"
-                    BackgroundColor="#C0DAF3"/>
+                    BackgroundColor="#C0DAF3"
+                    Clicked="LoginPageButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

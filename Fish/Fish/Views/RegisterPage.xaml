@@ -46,7 +46,8 @@
                     CornerRadius="45"
                     BorderColor="Black"
                     BorderWidth="1"
-                    BackgroundColor="#C6F4CD"/>
+                    BackgroundColor="#C6F4CD"
+                    Clicked="RegisterPageButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
