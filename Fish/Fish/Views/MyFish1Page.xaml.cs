@@ -11,5 +11,15 @@ namespace Fish.Views
         {
             InitializeComponent();
         }
+
+        async void CommentButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new Comment1Page());
+        }
+
+        private void LikeButton_Clicked(object sender, EventArgs e)
+        {
+            likesLabel.Text = "15 likes";
+        }
     }
 }

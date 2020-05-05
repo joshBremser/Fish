@@ -41,7 +41,7 @@ namespace Fish.Views
 
         async void LoginPageButton_Clicked(System.Object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new MapPage());
+            await Navigation.PushAsync(new MapMasterDetail());
         }
 
     }

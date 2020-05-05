@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Fish.Views.Comment1Page">
+    <ContentPage.Content>
+        <StackLayout>
+        <ScrollView>
+            <StackLayout HeightRequest="200">
+                    <Label Text="JOHN L"
+                    <Label Text="Went up to buddy's cabin on Moosehead Lake. Fished the Kennebec River (West Outlet I believe) with Fred, Matt and Alex. Water level was very high so did not have great luck, but had amazing weekend none the less. I caught 1 landlocked salmon on grey ghost and Matt caught 1 brook trout on Elk haired caddis. Other days were spent boating, tubing, hiking Mt. Kineo, and of course drinking. " HeightRequest="200"></Label>
+                <Label Text="Comment 2" HeightRequest="200"></Label>
+            </StackLayout>
+        </ScrollView>
+        <Entry></Entry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
