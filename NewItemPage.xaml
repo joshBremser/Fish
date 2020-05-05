@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Fish.Views.NewItemPage"
+             Title="New Item">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Cancel" Clicked="Cancel_Clicked" />
+        <ToolbarItem Text="Save" Clicked="Save_Clicked" />
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        
+        <StackLayout Spacing="20" Padding="15">
+            <Button Text="Pick Photo"
+            Clicked="OnPickPhotoButtonClicked" />
+            
+            <Label Text="Type Of Fish" FontSize="Medium" />
+            <Entry Text="{Binding Item.Text}" d:Text="Type Of Fish" FontSize="Small" />
+            <Label Text="Size Of Fish" FontSize="Medium" />
+            <Editor Text="{Binding Item.Description}" d:Text="Size Of Fish" FontSize="Small" Margin="0" />
+            <Label Text="Lure / Bait Type" FontSize="Medium" />
+            <Editor Text="{Binding Item.Description}" d:Text="Size Of Fish" FontSize="Small" Margin="0" />
+            <Label Text="Encounter Details" FontSize="Medium" />
+            <Editor Text="{Binding Item.Description}" d:Text="Size Of Fish" FontSize="Small" Margin="0" />
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
