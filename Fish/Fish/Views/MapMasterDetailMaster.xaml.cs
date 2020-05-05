@@ -35,7 +35,7 @@ namespace Fish.Views
                 {
                     new MapMasterDetailMasterMenuItem { Id = 0, Title = "Settings" },
                     new MapMasterDetailMasterMenuItem { Id = 1, Title = "Edit Catches" },
-                    new MapMasterDetailMasterMenuItem { Id = 2, Title = "Version Information" },
+                    new MapMasterDetailMasterMenuItem { Id = 2, Title = "Version Information"},
                     new MapMasterDetailMasterMenuItem { Id = 3, Title = "Sign Out" },
                    
                 });

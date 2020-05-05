@@ -29,6 +29,7 @@ namespace Fish.Views
 
 
             var item = e.SelectedItem as MapMasterDetailMasterMenuItem;
+
             if (item == null)
                 return;
 

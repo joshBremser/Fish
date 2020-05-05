@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace Fish.Views
 {
-    public partial class Comment1Page : ContentPage
+    public partial class MyFish6Page : ContentPage
     {
-        public Comment1Page()
+        public MyFish6Page()
         {
             InitializeComponent();
         }

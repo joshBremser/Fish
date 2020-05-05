@@ -13,11 +13,19 @@
     </ContentPage.ToolbarItems>
     
     <ContentPage.Content>
+        
         <StackLayout Spacing="20" Padding="15">
-            <Label Text="Text" FontSize="Medium" />
-            <Entry Text="{Binding Item.Text}" d:Text="Item name" FontSize="Small" />
-            <Label Text="Description" FontSize="Medium" />
-            <Editor Text="{Binding Item.Description}" d:Text="Item description" FontSize="Small" Margin="0" />
+            <Button Text="Pick Photo"
+            Clicked="OnPickPhotoButtonClicked" />
+            
+            <Label Text="Type Of Fish" FontSize="Medium" />
+            <Entry Text="{Binding Item.Text}" d:Text="Type Of Fish" FontSize="Small" />
+            <Label Text="Size Of Fish" FontSize="Medium" />
+            <Editor Text="{Binding Item.Description}" d:Text="Size Of Fish" FontSize="Small" Margin="0" />
+            <Label Text="Lure / Bait Type" FontSize="Medium" />
+            <Editor Text="{Binding Item.Description}" d:Text="Size Of Fish" FontSize="Small" Margin="0" />
+            <Label Text="Encounter Details" FontSize="Medium" />
+            <Editor Text="{Binding Item.Description}" d:Text="Size Of Fish" FontSize="Small" Margin="0" />
         </StackLayout>
     </ContentPage.Content>
     

@@ -17,5 +17,10 @@ namespace Fish.Views
         {
             await Navigation.PushAsync(new MyFish1Page());
         }
+
+        async void TapGestureRecognizer_Tapped_1(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new MyFish6Page());
+        }
     }
 }

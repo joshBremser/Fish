@@ -5,6 +5,8 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 using Fish.Models;
+using System.Threading.Tasks;
+using System.IO;
 
 namespace Fish.Views
 {
@@ -13,6 +15,9 @@ namespace Fish.Views
     [DesignTimeVisible(false)]
     public partial class NewItemPage : ContentPage
     {
+        private object image;
+       
+
         public Item Item { get; set; }
 
         public NewItemPage()
@@ -31,12 +36,30 @@ namespace Fish.Views
         async void Save_Clicked(object sender, EventArgs e)
         {
             MessagingCenter.Send(this, "AddItem", Item);
-            await Navigation.PopAsync();
+            await Navigation.PushAsync(new MapMasterDetail());
         }
 
         async void Cancel_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PopAsync();
+            await Navigation.PopModalAsync();
         }
+
+        async void OnPickPhotoButtonClicked(object sender, EventArgs e)
+        {
+            (sender as Button).IsEnabled = false;
+
+            System.IO.Stream stream = await DependencyService.Get<IPhotoPickerService>().GetImageStreamAsync();
+            if (stream != null)
+            {
+               image = ImageSource.FromStream(() => stream);
+            }
+
+    (sender as Button).IsEnabled = true;
+        }
+    }
+
+    internal interface IPhotoPickerService
+    {
+        Task<Stream> GetImageStreamAsync();
     }
 }

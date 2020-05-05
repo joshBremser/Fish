@@ -11,7 +11,6 @@ namespace Fish.Views
     {
         public MapMasterDetailMasterMenuItem()
         {
-            TargetType = typeof(MapMasterDetailMasterMenuItem);
         }
         public int Id { get; set; }
         public string Title { get; set; }
