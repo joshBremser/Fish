@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Fish.Views.MyFish1Page">
+    <ContentPage.Content>
+        <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="310"/>
+                <RowDefinition Height="25"/>
+                <RowDefinition Height="1"/>
+                <RowDefinition Height="25"/>
+                <RowDefinition Height="25"/>
+                <RowDefinition Height="25"/>
+                <RowDefinition Height="1"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Text="  John L."
+                   HorizontalOptions="Start"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   Grid.Row="0"/>
+            <Label Text="1/24/19  "
+                   HorizontalOptions="End"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   Grid.Row="0"/>
+
+            <Image Source="johnsfish.png"
+                   Grid.Row="1"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="FillAndExpand"/>
+
+            <ImageButton Source="comment.png"
+                         Grid.Row="2"
+                         Margin="10,0"
+                         HorizontalOptions="Start"
+                         Clicked="CommentButton_Clicked"/>
+            <ImageButton Source="like.png"
+                         Grid.Row="2"
+                         Margin="10,0"
+                         HorizontalOptions="End"/>
+            <Label Text="Comment"
+                   HorizontalOptions="Start"
+                   Margin="50,0"
+                   Grid.Row="2"/>
+            <Label Text="14 Likes"
+                   HorizontalOptions="End"
+                   Margin="40,0"
+                   Grid.Row="2"/>
+
+            <Label Text="  Type:"
+                   HorizontalOptions="Start"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   Grid.Row="4"/>
+            <Label Text="Smallmouth Bass  "
+                   HorizontalOptions="End"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   Grid.Row="4"/>
+
+            <Label Text="  Size:"
+                   HorizontalOptions="Start"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   Grid.Row="5"/>
+            <Label Text="7.1 lbs  "
+                   HorizontalOptions="End"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   Grid.Row="5"/>
+
+            <Label Text="  Lure:"
+                   HorizontalOptions="Start"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   Grid.Row="6"/>
+            <Label Text="1/4oz Double CO. Spinner  "
+                   HorizontalOptions="End"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   Grid.Row="6"/>
+
+            <BoxView Color="Black"
+                     Grid.Row="3"/>
+            <BoxView Color="Black"
+                     Grid.Row="7"/>
+
+            <Label Text="Caught this beauty on the west side of Ring Island cords 43°54'48.9'N 70°32'23.2'W. After a fairly slow start and repositioning I felt a series of nibbles and finally snagged her. Went with my typical setup.  Penn Carnage II rod and my usual 1/4 oz Double bladed spinner setup. Time of catch was around 16:43. Good luck everyone!"
+                   HorizontalOptions="Start"
+                   Padding="10,0"
+                   FontSize="14"
+                   FontAttributes="Bold"
+                   Grid.Row="8"/>
+            
+        </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
